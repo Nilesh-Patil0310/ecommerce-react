@@ -29,12 +29,12 @@ const Navbar = () => {
               <Link className="nav-item nav-link active text-white" to="/products">
                 Products
               </Link>
-              <Link className="nav-item nav-link active text-white" to="/cart">
+              <Link className="nav-item nav-link active text-white" to="/add product">
                 Add Product +
               </Link>
               <Link
                 className="nav-item nav-link active text-white"
-                to="/addcontact"
+                to="/cart"
               >
                 Cart ({cartItemsCount})
               </Link>
